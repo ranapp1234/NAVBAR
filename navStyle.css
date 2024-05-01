@@ -1,0 +1,70 @@
+
+/* body {
+    margin: 0;
+    margin-top: -16px;
+    padding: 0;
+} */
+
+ul {
+    list-style-type: none;
+    background-color: black;
+    color: aliceblue;
+}
+
+ul li {
+    display: inline-block;
+    padding: 20px;
+    color: white;
+}
+
+ul li:hover {
+    color: blueviolet;
+    background-color: green;
+}
+
+.dropdown {
+    display: none;
+}
+
+ul li:hover .dropdown {
+    display: block;
+    position: absolute;
+    margin-left: -18px;
+    margin-top: 20px;
+
+}
+
+.dropdown ul {
+    margin: 0;
+    padding: 0;
+
+}
+
+.dropdown ul li {
+    display: block;
+    padding: 1.6rem;
+
+}
+
+.courses {
+    display: none;
+}
+
+.dropdown ul li:hover  .courses{
+    display: block;
+    position: absolute;
+    margin-left: 63.2px;
+    margin-top: -44px;
+}
+
+.courses ul {
+    margin: 0;
+    padding: 0;
+}
+
+.courses ul li {
+    display: block;
+}
+li:hover{
+    cursor: pointer;
+}
